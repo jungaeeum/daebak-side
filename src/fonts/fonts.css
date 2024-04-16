@@ -1,0 +1,44 @@
+@font-face {
+    /* 사용할 폰트의 이름 */
+    font-family: "AbigailAdams";
+    font-display: fallback;
+    font-family: "AmericanScribe";
+    font-display: fallback;
+    font-family: "Cristone";
+    font-display: fallback;
+    font-family: "DouglassPen";
+    font-display: fallback;
+    font-family: "OldManEloquent";
+    font-display: fallback;
+    font-family: "Seagram tfb";
+    font-display: fallback;
+    font-family: "Sons of Pain M.C.";
+    font-display: fallback;
+    font-family: "TexasHero";
+    font-display: fallback;
+    
+  
+    /* 
+    src: 사용할 폰트의 위치 및 형식 
+       Safari, Android, iOS => ttf
+       Modern Browsers => woff
+       IE6-IE8 => eot
+    */
+    src:
+        url("./AbigailAdams.ttf") format("truetype"),url("./AbigailAdams.eot?iefix") format("embedded-opentype")
+       , url("./AmericanScribe.ttf") format("truetype"),  url("./AmericanScribe.eot?iefix") format("embedded-opentype")
+       , url("./Cristone.ttf") format("truetype"), url("./Cristone.eot?iefix") format("embedded-opentype")
+       , url("./DouglassPen.ttf") format("truetype"), url("./DouglassPen.eot?iefix") format("embedded-opentype")
+       , url("./OldManEloquent.ttf") format("truetype"), url("./OldManEloquent.eot?iefix") format("embedded-opentype")
+       , url("./Seagram tfb.ttf") format("truetype"),  url("./Seagram tfb.eot?iefix") format("embedded-opentype")
+       , url("./Sons of Pain M.C..ttf") format("truetype"),  url("./Sons of Pain M.C..eot?iefix") format("embedded-opentype")
+       , url("./TexasHero.ttf") format("truetype"),  url("./TexasHero.eot?iefix") format("embedded-opentype")
+        
+        
+        ;
+    
+  
+    /* 사용할 폰트의 기본 스타일 */
+    font-weight: 400;
+    font-style: normal;
+  }
