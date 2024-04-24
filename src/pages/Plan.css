@@ -1,0 +1,105 @@
+* {
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+.plan-container {
+    position: relative;
+    height: auto;
+    font-family: "Sons of Pain M.C.";
+    background-color: #222222;
+    position: relative;
+    
+    
+    /* border: 1px dashed #666; */
+}
+
+.plan-container h2 {
+    font-size: 34px;
+}
+
+
+.plans {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 6rem;
+    gap: 1rem;
+    
+}
+
+.plans .box-image picture:first-child img {
+    position: relative;
+    width: 80%;
+    height: auto;
+    z-index: 55;
+    
+}
+
+
+
+.box-image {
+    position: relative;
+    flex: 50%;
+    margin: auto;
+    top: 0;
+    
+}
+
+.plans .box-image picture:last-child img {
+    width: 65%;
+    height: 90%;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translate(-50%,0);
+    
+}
+
+.plan-description {
+    position: relative;
+    flex: 50%;
+    color: white;
+    margin-bottom: 8rem;
+}
+
+.plan-description img {
+    width: 100%;
+}
+
+.plan-category h2 {
+    font-family: "Seagram tfb", sans-serif; 
+    font-size: 24px;
+    border: 1px solid wheat;
+    cursor: pointer;
+    padding: 16px ;
+
+}
+
+.plan-category ul h3 {
+    margin: 22px 0 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    font-size: 18px; 
+}
+
+.plan-category ul p {
+    line-height: 16px;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 2rem;
+}
+
+/* .plan-description p {
+    position: absolute;
+    color: #fff;
+    top: 25%;
+    width: 70%;
+    left: 50%;
+    transform: translate(-50%,0);
+    line-height: 30px;
+    
+    
+} */

@@ -1,44 +1,72 @@
 @font-face {
-    /* 사용할 폰트의 이름 */
     font-family: "AbigailAdams";
-    font-display: fallback;
-    font-family: "AmericanScribe";
-    font-display: fallback;
-    font-family: "Cristone";
-    font-display: fallback;
-    font-family: "DouglassPen";
-    font-display: fallback;
-    font-family: "OldManEloquent";
-    font-display: fallback;
-    font-family: "Seagram tfb";
-    font-display: fallback;
-    font-family: "Sons of Pain M.C.";
-    font-display: fallback;
-    font-family: "TexasHero";
-    font-display: fallback;
-    
-  
-    /* 
-    src: 사용할 폰트의 위치 및 형식 
-       Safari, Android, iOS => ttf
-       Modern Browsers => woff
-       IE6-IE8 => eot
-    */
-    src:
-        url("./AbigailAdams.ttf") format("truetype"),url("./AbigailAdams.eot?iefix") format("embedded-opentype")
-       , url("./AmericanScribe.ttf") format("truetype"),  url("./AmericanScribe.eot?iefix") format("embedded-opentype")
-       , url("./Cristone.ttf") format("truetype"), url("./Cristone.eot?iefix") format("embedded-opentype")
-       , url("./DouglassPen.ttf") format("truetype"), url("./DouglassPen.eot?iefix") format("embedded-opentype")
-       , url("./OldManEloquent.ttf") format("truetype"), url("./OldManEloquent.eot?iefix") format("embedded-opentype")
-       , url("./Seagram tfb.ttf") format("truetype"),  url("./Seagram tfb.eot?iefix") format("embedded-opentype")
-       , url("./Sons of Pain M.C..ttf") format("truetype"),  url("./Sons of Pain M.C..eot?iefix") format("embedded-opentype")
-       , url("./TexasHero.ttf") format("truetype"),  url("./TexasHero.eot?iefix") format("embedded-opentype")
-        
-        
-        ;
-    
-  
-    /* 사용할 폰트의 기본 스타일 */
-    font-weight: 400;
+    font-display: swap;
+    src: url("./AbigailAdams.eot") format("eot"),
+         url("./AbigailAdams.ttf") format("truetype");
+    font-weight: 300;
     font-style: normal;
   }
+  @font-face {
+    font-family: "AmericanScribe";
+    font-display: swap;
+    src: url("./AmericanScribe.eot") format("eot"),
+         
+         url("./AmericanScribe.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Cristone";
+    font-display: swap;
+    src: url("./Cristone.eot") format("eot"),
+         
+         url("./Cristone.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "DouglassPen";
+    font-display: swap;
+    src: url("./DouglassPen.eot") format("eot"),
+         
+         url("./DouglassPen.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "OldManEloquent";
+    font-display: swap;
+    src: url("./OldManEloquent.eot") format("eot"),
+        
+         url("./OldManEloquent.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Seagram tfb";
+    font-display: swap;
+    src: url("./Seagram tfb.eot") format("eot"),
+         
+         url("./Seagram tfb.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Sons of Pain M.C.";
+    font-display: swap;
+    src: url("./Sons of Pain M.C..eot") format("eot"),
+         url("./Sons of Pain M.C..ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "TexasHero";
+    font-display: swap;
+    src: url("./TexasHero.eot") format("eot"),
+        
+         url("./TexasHero.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  

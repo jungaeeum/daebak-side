@@ -12,10 +12,8 @@ header {
 
 header h2 {
   color: wheat;
-  font-family: 'OldManEloquent';
-  margin: 0 auto;
-
-  
+  font-family: 'Seagram tfb';
+  margin: 0 auto 50px;
   
 }
 
@@ -25,6 +23,7 @@ header .sns {
   height: 100%;
   align-items: center;
   display: flex;
+  gap: 20px;
 }
 
 .twitter {
@@ -33,10 +32,6 @@ header .sns {
   cursor: pointer;
   
 }
-
-
-/* 지울거 */
-
 
 .wrapper {
   background: purple;
