@@ -31,6 +31,8 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 See my homage URL  [https://pirates-27aea.web.app/](https://pirates-27aea.web.app/)
 
+website link [https://ohshxxpirates.com/](https://ohshxxpirates.com/)
+
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
